@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #F2F8FB;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+#all{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid #FDC8BD;
+    border-radius: 2px;
+    box-shadow: 0 0 50px #F6F0E3;
+    -webkit-transition: 150ms all linear;
+    -moz-transition: 150ms all linear;
+    transition: 150ms all linear;
+}
+#all:hover{
+    box-shadow: 0 0 50px #F04567;
+}
+#temprature{
+    display: inline-block;
+}
